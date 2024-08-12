@@ -56,7 +56,7 @@ if ($_POST) {
     $desempenho = $_POST["desempenho"];
     $nome_funcionario = $_POST["nome_funcionario"];
 
-    echo ("O funcionário " . $nome_funcionario . " receberá um bônus de " . calcularBonus($rendimento_anual, $desempenho));
+    echo ("O funcionário " . $nome_funcionario . " receberá um bônus de R$ " . calcularBonus($rendimento_anual, $desempenho));
 }
 require_once("footer.php")
 ?>
