@@ -39,15 +39,15 @@ function calcularBonus($rendimento_anual, $desempenho)
 {
     $bonus = 0;
     if ($desempenho == 1) {
-        $bonus = $rendimento_anual * 0.01;
+        $bonus = $rendimento_anual * 0.001;
     } elseif ($desempenho == 2) {
-        $bonus = $rendimento_anual * 0.02;
+        $bonus = $rendimento_anual * 0.0025;
     } elseif ($desempenho == 3) {
-        $bonus = $rendimento_anual * 0.03;
+        $bonus = $rendimento_anual * 0.0040;
     } elseif ($desempenho == 4) {
-        $bonus = $rendimento_anual * 0.04;
+        $bonus = $rendimento_anual * 0.0055;
     } elseif ($desempenho == 5) {
-        $bonus = $rendimento_anual * 0.05;
+        $bonus = $rendimento_anual * 0.007;
     }
     return $bonus;
 }
