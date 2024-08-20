@@ -8,7 +8,7 @@ class Livro {
     public function __construct($titulo, $autor, $ano) {
         $this->titulo = $titulo;
         $this->autor = $autor;
-        $this->setAno = ($ano);
+        $this->setAno($ano);
     }
 
     public function setTitulo($titulo) {
@@ -38,5 +38,5 @@ class Livro {
     }
 }
 
-$obj = new Livro("o livro", "Ana", "2024");
+$obj = new Livro("o livro", "Ana", 1850);
 var_dump($obj);
