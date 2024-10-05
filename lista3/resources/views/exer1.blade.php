@@ -7,10 +7,10 @@
 </head>
 <body>
     <form action="/respostaexer1" method="POST">
-    @CSRF
-    <input type="number" name="valor1"/>
-    <input type="number" name="valor2"/>
-    <button type="submit">Calcular</button>
-    </form>    
+        @CSRF
+        <input type="number" name="valor1"/>
+        <input type="number" name="valor2"/>
+        <button type="submit">Calcular</button>
+    </form>
 </body>
 </html>
